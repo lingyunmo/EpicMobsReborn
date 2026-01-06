@@ -1,4 +1,13 @@
 name: EpicMobsReborn
 version: 1.0
-main: cn.bzlom.epicmobsreborn.Main
+main: cn.bzlom.epicmobs.EpicMobsReborn
 api-version: 1.16
+author: lingyunmo
+description: A plugin to enhance mobs based on distance.
+
+commands:
+  epicmobs:
+    description: Main command for EpicMobsReborn
+    usage: /epicmobs reload
+    permission: epicmobs.reload
+    permission-message: §cYou do not have permission to use this command.

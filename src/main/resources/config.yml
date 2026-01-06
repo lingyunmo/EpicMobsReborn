@@ -1,0 +1,63 @@
+# =============================================================
+# EpicMobsReborn Main Config
+# =============================================================
+
+# 语言设置 / Language Setting
+# 可选: zh_CN (简体中文), en_US (English)
+Language: zh_CN
+
+# 启用插件的世界 / Enabled Worlds
+WorldName:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
+
+# =============================================================
+# 强度设置 / Difficulty Settings
+# =============================================================
+
+# 血量成长系数 (Health Multiplier)
+# 公式: 基础血量 + (等级 * 系数)
+# 例子: 僵尸基础20血, 4级, 系数2.0
+# 计算: 20 + (4 * 2.0) = 28血 (合理)
+# 计算: 20 + (100 * 2.0) = 220血 (挑战性)
+HealthMultiplier: 5.0
+
+# =============================================================
+# 基础血量 / Base Health
+# =============================================================
+ZombieHealth: 20
+SkeletonHealth: 20
+CreeperHealth: 20
+SpiderHealth: 16
+CavespiderHealth: 12
+WitchHealth: 26
+SlimeHealth: 16
+PhantomHealth: 20
+DrownedHealth: 20
+GuardianHealth: 30
+ElderGuardianHealth: 80
+PillagerHealth: 24
+VindicatorHealth: 24
+EvokerHealth: 24
+RavagerHealth: 100
+ZombiePigmanHealth: 20
+PiglinHealth: 16
+PiglinBruteHealth: 50
+HoglinHealth: 40
+ZoglinHealth: 40
+WitherSkeletonHealth: 20
+BlazeHealth: 20
+GhastHealth: 10
+MagmaCubeHealth: 16
+EndermanHealth: 40
+ShulkerHealth: 30
+PolarBearHealth: 30
+WolfHealth: 20
+BeeHealth: 10
+# 动物建议保持原版
+ChickenHealth: 4
+CowHealth: 10
+SheepHealth: 8
+PigHealth: 10
+HorseHealth: 20
