@@ -1,0 +1,4 @@
+name: EpicMobsReborn
+version: 1.0
+main: cn.bzlom.epicmobsreborn.Main
+api-version: 1.16
